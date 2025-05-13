@@ -29,13 +29,21 @@ int main() {
     tabuleiro[2][7]=3;
     tabuleiro[2][8]=3;
     tabuleiro[2][9]=3;
+    tabuleiro[3][3]=3;
+    tabuleiro[4][4]=3;
+    tabuleiro[5][5]=3;
+    tabuleiro[6][6]=3;
+    tabuleiro[10][1]=3;
+    tabuleiro[9][2]=3;
+    tabuleiro[8][3]=3;
+    tabuleiro[7][4]=3;
     printf("   %c %c %c %c %c %c %c %c %c %c\n", linha[0], linha[1], linha[2], linha[3], linha[4], linha[5], linha[6], linha[7], linha[8], linha[9]);
     for(int i=0 ; i<10 ; i++){
         for(int j=0 ; j<11 ; j++){
             printf("%2d", tabuleiro[i][j]);
     }printf("\n");
     } 
-
+    printf("\n");
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
     // Sugestão: Posicione quatro navios no tabuleiro, incluindo dois na diagonal.
