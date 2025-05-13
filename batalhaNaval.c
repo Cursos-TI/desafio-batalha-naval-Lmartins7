@@ -44,6 +44,7 @@ int main() {
     }printf("\n");
     } 
     printf("\n");
+
     // Nível Aventureiro - Expansão do Tabuleiro e Posicionamento Diagonal
     // Sugestão: Expanda o tabuleiro para uma matriz 10x10.
     // Sugestão: Posicione quatro navios no tabuleiro, incluindo dois na diagonal.
@@ -53,6 +54,15 @@ int main() {
     // Sugestão: Crie matrizes para representar habilidades especiais como cone, cruz, e octaedro.
     // Sugestão: Utilize estruturas de repetição aninhadas para preencher as áreas afetadas por essas habilidades no tabuleiro.
     // Sugestão: Exiba o tabuleiro com as áreas afetadas, utilizando 0 para áreas não afetadas e 1 para áreas atingidas.
+
+    int cone [5][5]={0};
+    int cruz [5][5]={0};
+
+    for(int i=0; i<5; i++){
+        for(int j=0; j<5; j++){
+            printf("%d",cone[i][j]);
+        }
+    }
 
     // Exemplos de exibição das habilidades:
     // Exemplo para habilidade em cone:
